@@ -39,8 +39,8 @@ class ViewController: UIViewController {
         print(date)
         dateStringLbl.text = date.stringWithFormat(format)      // Date sous forme de String
         timeIntervalLbl.text = date.timeStamp()                 // Temps écoulé
-        calendarLbl.text = date.quelJour()
-        ilyaLbl.text = date.components()
+        calendarLbl.text = date.quelJour()                      // Jour
+        ilyaLbl.text = date.components()                        // Temps écoulé en mois,....
 
     }
 }
